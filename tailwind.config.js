@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'top-cart': "url(https://htmldemo.net/fiora/fiora/img/icon/top-cart.png)",
+      }
+    }
   },
   plugins: [],
 }
