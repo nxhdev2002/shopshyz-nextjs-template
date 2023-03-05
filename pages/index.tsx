@@ -19,11 +19,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Slider />
+      <Slider images={[
+        'https://htmldemo.net/fiora/fiora/img/slider-1.jpg',
+        'https://htmldemo.net/fiora/fiora/img/slider-1.jpg',
+        'https://htmldemo.net/fiora/fiora/img/slider-4.jpg'
+      ]} />
       <Banner />
       <DailyDeal />
       <TabArea />
       <PopularPost />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     </>
   );
 }
