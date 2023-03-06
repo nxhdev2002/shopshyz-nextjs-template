@@ -6,6 +6,7 @@ import DailyDeal from "@/components/Home/DailyDeal";
 import PopularPost from "@/components/Home/PopularPost";
 import Slider from "@/components/Home/Slider";
 import TabArea from "@/components/Home/TabArea";
+import ServiceArea from "@/components/Home/ServiceArea";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function Home() {
         'https://htmldemo.net/fiora/fiora/img/slider-1.jpg',
         'https://htmldemo.net/fiora/fiora/img/slider-4.jpg'
       ]} />
+      <ServiceArea />
       <Banner />
       <DailyDeal />
       <TabArea />
